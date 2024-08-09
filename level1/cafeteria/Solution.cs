@@ -43,11 +43,6 @@ public class Solution
     [TestMethod]
     public void TestGetMaxAdditionalDinersCountEdge()
     {
-        /*
-        1 2 3 4 5 6 7 8 9 10
-        *   x   x   x     *
-        */
-
         Assert.AreEqual(0, getMaxAdditionalDinersCount(1, 1, 1, [1]));
         Assert.AreEqual(4, getMaxAdditionalDinersCount(10, 1, 1, [1]));
         Assert.AreEqual(4, getMaxAdditionalDinersCount(10, 1, 1, [10]));
